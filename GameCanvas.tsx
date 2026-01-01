@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, useState, useCallback } from 'react';
 import { GameState, DinoState, Obstacle, ObstacleType, Rect, Coin, UpgradeState } from './types';
-import { CANVAS_WIDTH, CANVAS_HEIGHT, CONFIG, DINO_CONFIG, ASSETS, THEMES, SKINS, COIN_CONFIG, UPGRADES } from '../constants';
-import { soundManager } from '../utils/audio';
+import { CANVAS_WIDTH, CANVAS_HEIGHT, CONFIG, DINO_CONFIG, ASSETS, THEMES, SKINS, COIN_CONFIG, UPGRADES } from './constants';
+import { soundManager } from './utils/audio';
 
 const GameCanvas: React.FC = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
