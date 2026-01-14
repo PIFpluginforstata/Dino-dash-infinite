@@ -1,20 +1,53 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Fighting Arena
 
-# Run and deploy your AI Studio app
+A 2-player local fighting game built with React + TypeScript + Vite. Deploy easily to Vercel.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/1JD7y5pYmKuXUQ1jgm1cDWBSKfitN9xlj
+- **2 Player Local Battle** - Fight against a friend on the same keyboard
+- **Customizable Controls** - Configure keys for each player
+- **Combat System** - Attack, Block, and Special moves
+- **Energy System** - Build up energy to unleash devastating special attacks
+- **Combo Counter** - Track your combo hits
+- **60 Second Rounds** - Fast-paced battles with time limit
+
+## Controls (Default)
+
+### Player 1
+- **W** - Jump
+- **A/D** - Move Left/Right
+- **F** - Attack
+- **G** - Block
+- **H** - Special (requires full energy bar)
+
+### Player 2
+- **↑** - Jump
+- **←/→** - Move Left/Right
+- **J** - Attack
+- **K** - Block
+- **L** - Special (requires full energy bar)
+
+### General
+- **ESC** - Pause/Resume
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
+**Prerequisites:** Node.js 18+
 
+```bash
+npm install
+npm run dev
+```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Deploy to Vercel
+
+1. Push to GitHub
+2. Import project in Vercel
+3. Deploy (zero configuration needed)
+
+## Tech Stack
+
+- React 18
+- TypeScript
+- Vite
+- CSS3 Animations
